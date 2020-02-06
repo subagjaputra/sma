@@ -5,10 +5,6 @@ class Mailing extends CI_Controller
 {
     public function index()
     {
-    }
-
-    public function mailing()
-    {
         $this->load->view('mailing');
     }
 }
