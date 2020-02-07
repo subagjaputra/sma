@@ -34,21 +34,25 @@
                 <form>
                     <div class="form-row">
                         <div class="form-group col-md-6">
-                            <label for="inputEmail4">Firstname</label>
-                            <input type="text" class="form-control" id="inputEmail4">
+                            <label for="firstname">Firstname</label>
+                            <input type="text" class="form-control" id="firstname" name="firstname">
                         </div>
                         <div class="form-group col-md-6">
-                            <label for="inputPassword4">Lastname</label>
-                            <input type="text" class="form-control" id="inputPassword4">
+                            <label for="lastname">Lastname</label>
+                            <input type="text" class="form-control" id="lastname" name="lastname">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress">Email</label>
-                        <input type="text" class="form-control" id="inputAddress">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
                     </div>
                     <div class="form-group">
-                        <label for="inputAddress2">Address</label>
-                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" name="address" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="84" rows="5" placeholder="Write your message" class="form-control"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send</button>
                 </form>
