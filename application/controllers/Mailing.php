@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 // This will be my Work -> Putra
-
 class Mailing extends CI_Controller
 {
     public function __construct()
